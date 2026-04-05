@@ -1,13 +1,13 @@
 # Finance_Data_Processing_And_Access_control_backend
 
-# 📌 Objective
+## 📌 Objective
 
 This project is a backend system for managing financial records with role-based access control.
 It demonstrates API design, data modeling, business logic, and access control using Spring Boot and MySQL.
 
 ---
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 - Java 17
 - Spring Boot
@@ -45,7 +45,7 @@ http://localhost:8080
 
 ---
 
-🗄️ Database
+## 🗄️ Database
 
 - Database: MySQL
 - Tables:
