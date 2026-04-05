@@ -18,7 +18,7 @@ It demonstrates API design, data modeling, business logic, and access control us
 
 ---
 
-# ⚙️ Setup Instructions
+## ⚙️ Setup Instructions
 
 1. Clone the repository:
 
@@ -54,22 +54,22 @@ http://localhost:8080
 
 ---
 
-# 📊 Features
+## 📊 Features
 
-# ✔ Financial Records Management
+## ✔ Financial Records Management
 
 - Create records
 - View records
 - Update records
 - Delete records
 
-# ✔ Dashboard Summary
+## ✔ Dashboard Summary
 
 - Total Income
 - Total Expenses
 - Net Balance
 
-# ✔ Role-Based Access Control
+## ✔ Role-Based Access Control
 
 Role| Permissions
 VIEWER| Can only view records
@@ -78,7 +78,7 @@ ADMIN| Full access (create, update, delete)
 
 ---
 
-# 🔐 Role Handling
+## 🔐 Role Handling
 
 Role is passed using request header:
 
@@ -86,13 +86,13 @@ role: ADMIN / ANALYST / VIEWER
 
 ---
 
-# 📡 API Endpoints
+## 📡 API Endpoints
 
 ---
 
-# 👤 User APIs
+## 👤 User APIs
 
-# ➤ Create User
+## ➤ Create User
 
 POST /users
 
@@ -108,9 +108,9 @@ Request Body:
 
 ---
 
-# 💵 Record APIs
+## 💵 Record APIs
 
-# ➤ Create Record (ADMIN only)
+## ➤ Create Record (ADMIN only)
 
 POST /records
 
@@ -130,7 +130,7 @@ Body:
 
 ---
 
-# ➤ Get All Records (All roles)
+## ➤ Get All Records (All roles)
 
 GET /records
 
@@ -149,21 +149,21 @@ Response:
 
 ---
 
-# ➤ Update Record (ADMIN only)
+## ➤ Update Record (ADMIN only)
 
 PUT /records/{id}
 
 ---
 
-# ➤ Delete Record (ADMIN only)
+## ➤ Delete Record (ADMIN only)
 
 DELETE /records/{id}
 
 ---
 
-# 📈 Dashboard APIs
+## 📈 Dashboard APIs
 
-# ➤ Get Summary (ANALYST / ADMIN)
+## ➤ Get Summary (ANALYST / ADMIN)
 
 GET /dashboard/summary
 
@@ -177,7 +177,7 @@ Response:
 
 ---
 
-# ❌ Error Handling
+## ❌ Error Handling
 
 - 403 Forbidden → Unauthorized role
 - 404 Not Found → Record not found
@@ -185,7 +185,7 @@ Response:
 
 ---
 
-# 📸 Screenshots
+## 📸 Screenshots
 
 (Add your Postman screenshots here)
 
@@ -196,7 +196,7 @@ Response:
 
 ---
 
-# 💡 Design Note
+## 💡 Design Note
 
 - Role-based access control is implemented using request headers
 - Focus is on backend logic and simplicity as per assignment
@@ -204,7 +204,7 @@ Response:
 
 ---
 
-# 🎯 Conclusion
+## 🎯 Conclusion
 
 This project demonstrates:
 
